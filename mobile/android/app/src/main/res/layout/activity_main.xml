@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    tools:context="ch.belimo.app.MainActivity">
+
+    <include layout="@layout/content_main"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="@dimen/toolbar_height"
+        />
+
+    <android.support.design.widget.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/toolbar_height"
+        android:layout_gravity="bottom|end"
+        android:background="@color/toolbarColor"
+        app:theme="@style/AppTheme.NoActionBar">
+
+        <ProgressBar
+            android:id="@+id/pb_horizontal"
+            style="@style/CustomProgressBarHorizontal"
+            android:layout_gravity="top|end"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:progressDrawable="@drawable/progressbar"
+            android:max="100"
+            android:progress="0"
+            android:indeterminate="false" />
+
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/toolbar_height"
+            app:contentInsetStart="0dp"
+            app:theme="@style/AppTheme.NoActionBar">
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <ImageButton
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:background="@null"
+                    android:id="@+id/homeButton"
+                    android:src="@mipmap/home"
+                    android:scaleType="centerCrop"
+                    android:onClick="home"
+                    android:tint="@color/tintColor"
+                    android:layout_gravity="center_vertical|left"
+                    android:layout_marginLeft="32dp" />
+
+                <ImageButton
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:background="@null"
+                    android:id="@+id/reloadStopButton"
+                    android:src="@mipmap/reload"
+                    android:scaleType="centerCrop"
+                    android:onClick="reload"
+                    android:tint="@color/tintColor"
+                    android:layout_gravity="center_vertical|right"
+                    android:layout_marginRight="32dp" />
+
+                <ImageButton
+                    android:layout_width="104dp"
+                    android:layout_height="40dp"
+                    android:id="@+id/bottomLogoImageView"
+                    android:layout_gravity="center"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/logo_belimo"
+                    android:onClick="openBelimoWebsite"
+                    android:background="#0000" />
+
+            </FrameLayout>
+
+        </android.support.v7.widget.Toolbar>
+
+    </android.support.design.widget.AppBarLayout>
+
+</android.support.design.widget.CoordinatorLayout>

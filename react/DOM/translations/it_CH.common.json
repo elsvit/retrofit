@@ -1,0 +1,55 @@
+{
+    "action": {
+        "label": {
+            "home": "Home",
+            "back": "Indietro",
+            "send": "Invia",
+            "compare": "Confronta",
+            "accessories": "Accessori",
+            "add": {
+                "project": "Aggiungi a progetto"
+            },
+            "specification": "Specifiche",
+            "share": "Condividi",
+            "print": "Stampa",
+            "reset": "Reset",
+            "projects": "Progetti",
+            "proceed": "Proseguire",
+            "resetValues": "Resetta valori",
+            "create": "Crea",
+            "cancel": "Cancella",
+            "assign": "Assegna",
+            "results": "Mostra %(resultCount)s risultati",
+            "remove": "Rimuovere",
+            "save": "Salvare",
+            "yes": "Yes",
+            "no": "No",
+            "edit": "Edit",
+            "select": "Add",
+            "up": "Up"
+        }
+    },
+    "label": {
+        "app": {
+            "project": "Project",
+            "slogan": {
+                "retrofit": "Tool per trovare una facile sostituzione a dispositivi esistenti",
+                "valvesizer": "Tool per la selezione ed il dimensionamento di valvole ed attuatori"
+            }
+        },
+        "language": {
+            "german": "German",
+            "english": "English",
+            "french": "French",
+            "italian": "Italian"
+        },
+        "projects": {
+            "delete_confirmation": "Are you sure you want to remove Project \"%(projectName)s\"?",
+            "delete_item_confirmation": "Are you sure you want to remove Product \"%(productTitle)s\" from Project \"%(projectName)s\"?",
+	    "no_projects": "You currently have no projects"
+        },
+        "settings": {
+            "locale": "Select language"
+        }
+    }
+}

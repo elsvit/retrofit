@@ -1,0 +1,105 @@
+{
+    "action": {
+        "label": {
+            "search": {
+                "by": {
+                    "keyword": "Search",
+                    "parameters": "Search by Parameters"
+                }
+            },
+            "project": {
+                "create": "Create new project"
+            }
+        }
+    },
+    "label": {
+        "switcher": {
+            "air": "Air",
+            "water": "Water"
+        },
+        "parameter": {
+            "select": {
+                "hint": "Please, select %(parameterLabel)s"
+            }
+        },
+        "filter": {
+            "instructions": {
+                "air": "Please select the corresponding parameters",
+                "water": "Please select the corresponding parameters"
+            }
+        },
+        "headline": {
+            "air": "AIR REPLACEMENT SOLUTIONS",
+            "water": "WATER REPLACEMENT SOLUTIONS",
+            "project": {
+                "create": "Create new project",
+                "edit": "Edit project"
+            },
+            "projects": "List of projects",
+            "search": "Search for air and water devices",
+            "mode_select": "Select device mode",
+            "results": "We have found the following devices",
+            "results-single": "We have found the following device",
+            "replacement-results": {
+                "air": "We have found the following replacements",
+                "water": "Please use filter or select one of the following actuators"
+            },
+            "replacement-results-single": {
+                "air": "We have found the following replacement",
+                "water": "We have found the following actuator"
+            },
+            "no_results": "No results available, please contact your local Belimo distributor",
+            "settings": {
+                "support_contacts": "Support contacts",
+                "phone": "Phone",
+                "email": "E-Mail",
+                "address": "Address"
+            },
+            "accessory": "Accessory"
+        },
+        "form": {
+            "project": {
+                "name": "Project name"
+            },
+            "placeholder": {
+                "search": "Search by Keyword or Product Module"
+            }
+        },
+        "switch": {
+            "air": "Air",
+            "water": "Water",
+            "or": "or"
+        },
+        "property": {
+            "manufacturer": "Manufacturer",
+            "torque": "Torque",
+            "safety_function": "Safety Function",
+            "running_time": "Running Time",
+            "control_type": "Control Type",
+            "valve_type": "Valve Type",
+            "series": "Series",
+            "type": "Type",
+            "dn": "DN",
+            "nominal_voltage": "Nominal voltage",
+            "actuating_force": "Actuating force",
+            "actuating_time": "Actuating time",
+            "fail_safe_function": "Fail-safe function",
+            "integrated_switch": "Integrated Switch",
+            "stroke": "Actuating force"
+        },
+        "comparison": {
+            "replacement": "Replacement",
+            "original": "Original",
+            "title": "Comparison",
+            "and": "and"
+        }
+    },
+    "note": {
+        "@@replacement11": "This is a 1:1 replacement"
+    },
+    "retrofit_parameter": {
+        "no_value": "no value",
+        "@@yes": "yes",
+        "@@no": "no"
+    }
+}

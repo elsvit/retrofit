@@ -1,0 +1,123 @@
+{
+    "valve-sizer" : {
+        "action": {
+            "properties": {
+                "calculate_value": "Enter/calculate value",
+                "show": "Show"
+            },
+            "flow_pressure": {
+                "apply": "Apply"
+            },
+            "flow_calculation": {
+                "take": "Take"
+            },
+            "settings": {
+                "save": "Save"
+            },
+            "label": {
+                "series": {
+                    "select": "Select series"
+                }
+            }
+        },
+        "label": {
+            "headline": {
+                "flow_pressure": "Flow filter",
+                "flow_calculation": "Flow calculation",
+                "series_results": "We have found the following series",
+                "products_results": "We have found the following actuators"
+            },
+            "properties": {
+                "application": "Application",
+                "ventilator": "Valve Type",
+                "valve_connection": "Valve Connection",
+                "connections": "Connections",
+                "pn_selections": "Select PN",
+                "pressure_independent": "Pressure Independent",
+                "pressure_dependent": "Pressure Dependent",
+                "control_valve": "Control Valve",
+                "shut_off_and_diverter_valve": "Shut-off/Diverter Valve",
+                "internal_thread": "Internal Thread",
+                "external_thread": "External Thread",
+                "flange": "Flange",
+                "2": "2",
+                "3": "3",
+                "6": "6",
+                "10": "10",
+                "16": "16",
+                "25": "25",
+                "40": "40",
+                "connections_detail": {
+                    "2": "2-Way",
+                    "3": "3-Way",
+                    "6": "6-Way"
+                },
+                "valve_type_detail": {
+                    "0": "-",
+                    "1": "Control Valve",
+                    "2": "Diverter valve",
+                    "3": "Shut-off valve"
+                },
+                "valve_connection_detail": {
+                    "external_thread": "External Thread",
+                    "internal_thread": "Internal Thread",
+                    "flange": "Flange"
+                }
+            },
+            "flow_pressure": {
+                "calculating_units": "Calculating units",
+                "unit_values": "Units",
+                "flow": "Flow",
+                "flow_value": "Flow",
+                "differential_pressure": "Differential pressure",
+                "differential_pressure_value": "Differential pressure",
+                "not_set": "not set"
+            },
+            "flow_calculation": {
+                "power": "Power",
+                "temperature_difference": "Temperature difference",
+                "flow": "Flow"
+            },
+            "settings": {
+                "locale": "Select language"
+            },
+            "series": {
+                "series": "Series",
+                "dn": "DN",
+                "connections": "Connections",
+                "valve_type": "Type",
+                "valve_connection": "Connection",
+                "mediumtemp": "Medium Temp."
+            },
+            "actuators_filter": {
+                "no_higher_dn_values": "No higher DN values available",
+                "no_lower_dn_values": "No lower DN values available"
+            },
+            "products": {
+                "select_valve": "Select valve and proceed"
+            },
+            "combinations": {
+                "valve_actuator_list": "Valve/Actuator combination"
+            },
+            "actuator": {
+                "degree_of_protection": "Degree of protection",
+                "running_time": "Running time",
+                "actuating_time": "Actuating time",
+                "torque": "Torque",
+                "actuating_force": "Actuating force",
+                "control": "Control",
+                "nominal_voltage": "Nominal voltage",
+                "emergency_function": "Emergency function",
+                "yes": "Yes",
+                "no": "No"
+            }
+        },
+        "error": {
+            "actuators_filter": {
+                "dn_selections_not_found": "Not found",
+                "choose_valid_vmax": "No results. Please try to change your filters for flow and differential pressure",
+                "select_possible_differential_pressure_value": "The max differential pressure was exceeded. Please modify your input parameters (Flow/Differential Pressure)."
+            }
+        }
+    }
+}

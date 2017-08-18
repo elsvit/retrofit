@@ -1,0 +1,59 @@
+{
+    "action": {
+        "label": {
+            "home": "Home",
+            "back": "Back",
+            "send": "Send Products",
+            "compare": "Compare",
+            "accessories": "Accessories",
+            "add": {
+                "project": "Add to project"
+            },
+            "specification": "Specification",
+            "share": "Share Project",
+            "print": "Print",
+            "reset": "Reset",
+            "projects": "Projects",
+            "proceed": "Proceed",
+            "resetValues": "Reset values",
+            "create": "Create",
+            "cancel": "Cancel",
+            "assign": "Assign",
+            "results": "Show %(resultCount)s results",
+            "remove": "Remove",
+            "save": "Save",
+            "yes": "Yes",
+            "no": "No",
+            "edit": "Edit",
+            "select": "Add",
+            "up": "Up"
+        }
+    },
+    "label": {
+        "app": {
+            "project": "Project",
+            "slogan": {
+                "retrofit": "Tool for finding an easy replacement for your existing device",
+                "valvesizer": "Tool for accurately sizing and selecting valves and actuators"
+            }
+        },
+        "language": {
+            "german": "German",
+            "english": "English",
+            "french": "French",
+            "italian": "Italian"
+        },
+        "projects": {
+            "delete_confirmation": "Are you sure you want to remove Project \"%(projectName)s\"?",
+            "delete_item_confirmation": "Are you sure you want to remove Product \"%(productTitle)s\" from Project \"%(projectName)s\"?",
+	        "no_projects": "You currently have no projects"
+        },
+        "settings": {
+            "locale": "Select region and language"
+        },
+        "nodata": {
+            "message": "No data available right now. You can perform search from ",
+            "link_text": "this page"
+        }
+    }
+}

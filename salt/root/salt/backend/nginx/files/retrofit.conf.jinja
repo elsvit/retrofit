@@ -1,0 +1,50 @@
+gzip on;
+gzip_types text/plain text/xml text/css text/javascript application/json application/x-javascript;
+gzip_min_length  1000;
+gzip_proxied     any;
+gzip_disable "MSIE [1-6]\.(?!.*SV1)";
+gzip_comp_level  1;
+large_client_header_buffers 4 32k;
+
+
+server {
+    listen 80;
+    {%- if grains['virtual'] == 'VirtualBox' %}
+    server_name {{ pillar['project_dn_dev'] }};
+    {% else %}
+    server_name retrofit.{{ grains['fqdn'] }} toolbox.belimo.xiag.ch;
+
+#    auth_basic            "Restricted";
+#    auth_basic_user_file  basic_pw;
+    {% endif -%}
+
+    charset utf-8;
+    index index.html;
+    root {{ pillar['project_path_www'] }};
+
+    include robots.inc;
+
+    location / {
+        try_files $uri /index.php$is_args$args;
+    }
+
+    location ~ /\.ht {
+        access_log off;
+        log_not_found off;
+        deny  all;
+    }
+
+    location ~ (\.svn|CVS|\.git)/ {
+        access_log off;
+        log_not_found off;
+        deny all;
+    }
+
+    location ~ .php$ {
+        expires        off; ## Do not cache dynamic content
+        fastcgi_pass   127.0.0.1:9000;
+        fastcgi_index  index.php;
+        fastcgi_param  SCRIPT_FILENAME  $document_root$fastcgi_script_name;
+        include        fastcgi_params; ## See /etc/nginx/fastcgi_params
+    }
+}

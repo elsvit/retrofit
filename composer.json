@@ -1,0 +1,33 @@
+{
+    "name": "belimo/retrofit",
+    "description": "WebApplication of Belimo Retrofit",
+    "require": {
+        "php": ">=5.6.0",
+        "silex/silex": "~1.3",
+        "box/spout": "^2.4",
+        "mongodb/mongodb": "^1.0.0",
+        "pugx/shortid-php": "1.0.x-dev",
+        "maximebf/consolekit": "^1.0",
+        "parsecsv/php-parsecsv": "^0.4.5"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^5.1",
+        "mockery/mockery": "^0.9.6"
+    },
+    "authors": [
+        {
+            "name": "Anton Kudinov",
+            "email": "akudinov@xiag.ch"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Xiag\\": "backend/src/Xiag"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Test\\Integration\\": "backend/tests/integration"
+        }
+    }
+}

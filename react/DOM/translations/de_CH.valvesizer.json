@@ -1,0 +1,123 @@
+{
+    "valve-sizer" : {
+        "action": {
+            "properties": {
+                "calculate_value": "Wert eingeben/berechnen",
+                "show": "Anzeigen"
+            },
+            "flow_pressure": {
+                "apply": "Anwenden"
+            },
+            "flow_calculation": {
+                "take": "Anwenden"
+            },
+            "settings": {
+                "save": "Speichern"
+            },
+            "label": {
+                "series": {
+                    "select": "Serie auswählen"
+                }
+            }
+        },
+        "label": {
+            "headline": {
+                "flow_pressure": "Durchflussfilter",
+                "flow_calculation": "Durchfluss berechnen",
+                "series_results": "Passende Belimo Serien",
+                "products_results": "Passende Antriebe zur Serie"
+            },
+            "properties": {
+                "application": "Anwendung",
+                "ventilator": "Ventilart",
+                "valve_connection": "Ventilanschluss",
+                "connections": "Anschlüsse",
+                "pn_selections": "PN auswählen",
+                "pressure_independent": "Druckunabhängig",
+                "pressure_dependent": "Druckabhängig",
+                "control_valve": "Regelventil",
+                "shut_off_and_diverter_valve": "Absperr-/Umschaltventil",
+                "internal_thread": "Innengewinde",
+                "external_thread": "Aussengewinde",
+                "flange": "Flansch",
+                "2": "2",
+                "3": "3",
+                "6": "6",
+                "10": "10",
+                "16": "16",
+                "25": "25",
+                "40": "40",
+                "connections_detail": {
+                    "2": "2-Weg",
+                    "3": "3-Weg",
+                    "6": "6-Weg"
+                },
+                "valve_type_detail": {
+                    "0": "-",
+                    "1": "Regelventil",
+                    "2": "Umschaltventil",
+                    "3": "Absperrventil"
+                },
+                "valve_connection_detail": {
+                    "external_thread": "Aussengewinde",
+                    "internal_thread": "Innengewinde",
+                    "flange": "Flansch"
+                }
+            },
+            "flow_pressure": {
+                "calculating_units": "Einheiten definieren",
+                "unit_values": "Einheiten",
+                "flow": "Durchfluss",
+                "flow_value": "Durchfluss",
+                "differential_pressure": "Differenzdruck",
+                "differential_pressure_value": "Differenzdruck",
+                "not_set": "nicht gewählt"
+            },
+            "flow_calculation": {
+                "power": "Leistung",
+                "temperature_difference": "Temperaturdifferenz",
+                "flow": "Durchfluss"
+            },
+            "settings": {
+                "locale": "Sprache wählen"
+            },
+            "series": {
+                "series": "Serie",
+                "dn": "DN",
+                "connections": "Anschlüsse",
+                "valve_type": "Ventilart",
+                "valve_connection": "Ventilanschluss",
+                "mediumtemp": "Medium Temp."
+            },
+            "actuators_filter": {
+                "no_higher_dn_values": "No higher DN values available",
+                "no_lower_dn_values": "No lower DN values available"
+            },
+            "products": {
+                "select_valve": "Ventil auswählen und fortfahren"
+            },
+            "combinations": {
+                "valve_actuator_list": "Ventil/Antrieb Kombination"
+            },
+            "actuator": {
+                "degree_of_protection": "Schutzart",
+                "running_time": "Laufzeit",
+                "actuating_time": "Stellzeit",
+                "torque": "Drehmoment",
+                "actuating_force": "Stellkraft",
+                "control": "Ansteuerung",
+                "nominal_voltage": "Nennspannung",
+                "emergency_function": "Notstellfunktion",
+                "yes": "Ja",
+                "no": "Nein"
+            }
+        },
+        "error": {
+            "actuators_filter": {
+                "dn_selections_not_found": "Not found",
+                "choose_valid_vmax": "Keine Ergebnisse. Bitte ändern Sie Ihre Filter für Durchfluss und Differenzdruck",
+                "select_possible_differential_pressure_value": "Der Maximalwert für Δp wurde überschritten. Bitten passen Sie die Eingabeparameter an (Durchfluss/Differenzdruck)"
+            }
+        }
+    }
+}

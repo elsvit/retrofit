@@ -1,0 +1,59 @@
+{
+    "action": {
+        "label": {
+            "home": "Start",
+            "back": "Zurück",
+            "send": "Produktliste senden",
+            "compare": "Vergleichen",
+            "accessories": "Zubehör",
+            "add": {
+                "project": "Zum Projekt hinzufügen"
+            },
+            "specification": "Spezifikation",
+            "share": "Projekt teilen",
+            "print": "Drucken",
+            "reset": "Zurücksetzen",
+            "projects": "Projekte",
+            "proceed": "Weiter",
+            "resetValues": "Zurücksetzen",
+            "create": "Erstellen",
+            "cancel": "Abbrechen",
+            "assign": "Zuweisen",
+            "results": "%(resultCount)s Ergebnisse anzeigen",
+            "remove": "Entfernen",
+            "save": "Speichern",
+            "yes": "Ja",
+            "no": "Nein",
+            "edit": "Bearbeiten",
+            "select": "Hinzufügen",
+            "up": "Up"
+        }
+    },
+    "label": {
+        "app": {
+            "project": "Projekt",
+            "slogan": {
+                "retrofit": "Tool for finding an easy replacement for your existing device",
+                "valvesizer": "Tool for accurately sizing and selecting valves and actuators"
+            }
+        },
+        "language": {
+            "german": "Deutsch",
+            "english": "Englisch",
+            "french": "Französisch",
+            "italian": "Italienisch"
+        },
+        "projects": {
+            "delete_confirmation": "Sind Sie sicher, dass Sie das Projekt \"%(projectName)s\" löschen möchten?",
+            "delete_item_confirmation": "Sind Sie sicher, dass Sie \"%(productTitle)s\" vom Projekt \"%(projectName)s\" entfernen möchten?",
+	        "no_projects": "Sie haben aktuell keine Projekte"
+        },
+        "settings": {
+            "locale": "Region und Sprache auswählen"
+        },
+        "nodata": {
+            "message": "Kein Suchergebnis. Sie können ",
+            "link_text": "eine neue Suche starten"
+        }
+    }
+}

@@ -1,0 +1,24 @@
+
+/* Class = "UILabel"; text = "The Internet connection appears to be offline."; ObjectID = "0RD-50-Aet"; */
+"0RD-50-Aet.text" = "The Internet connection appears to be offline! Please check your network settings.";
+
+/* Class = "UIButton"; normalTitle = "Reload"; ObjectID = "4Hc-nM-Wzz"; */
+"4Hc-nM-Wzz.normalTitle" = "Reload";
+
+/* Class = "UIButton"; normalTitle = ""; ObjectID = "IDt-xO-Iel"; */
+"IDt-xO-Iel.normalTitle" = "";
+
+/* Class = "UILabel"; text = "Find an easy replacement for your existing device"; ObjectID = "LJO-e8-HFx"; */
+"LJO-e8-HFx.text" = "";
+
+/* Class = "UIButton"; normalTitle = "Ignore"; ObjectID = "N1R-8H-iCw"; */
+"N1R-8H-iCw.normalTitle" = "Ignore";
+
+/* Class = "UILabel"; text = "  Copyright © 2016 BELIMO Automation AG. All rights reserved."; ObjectID = "WXU-LN-ROK"; */
+"WXU-LN-ROK.text" = "© 2016 BELIMO Automation AG. All rights reserved.";
+
+/* Class = "UIButton"; normalTitle = ""; ObjectID = "Ztj-Im-vlU"; */
+"Ztj-Im-vlU.normalTitle" = "";
+
+/* Class = "UIButton"; normalTitle = ""; ObjectID = "lhJ-5C-leZ"; */
+"lhJ-5C-leZ.normalTitle" = "";

@@ -1,0 +1,105 @@
+{
+    "action": {
+        "label": {
+            "search": {
+                "by": {
+                    "keyword": "Suchen",
+                    "parameters": "Parameterauswahl"
+                }
+            },
+            "project": {
+                "create": "Neues Projekt"
+            }
+        }
+    },
+    "label": {
+        "switcher": {
+            "air": "Luft",
+            "water": "Wasser"
+        },
+        "parameter": {
+            "select": {
+                "hint": "Bitte %(parameterLabel)s auswählen"
+            }
+        },
+        "filter": {
+            "instructions": {
+                "air": "Bitte wählen Sie die entsprechenden Parameter",
+                "water": "Bitte wählen Sie die entsprechenden Parameter"
+            }
+        },
+        "headline": {
+            "air": "LUFTANWENDUNGEN",
+            "water": "WASSERANWENDUNGEN",
+            "project": {
+                "create": "Neues Projekt anlegen",
+                "edit": "Projekt bearbeiten"
+            },
+            "projects": "Projektübersicht",
+            "search": "Suche",
+            "mode_select": "Bereich auswählen",
+            "results": "Suchergebnisse",
+            "results-single": "Suchergebnis",
+            "replacement-results": {
+                "air": "Wir haben folgende Antriebe gefunden",
+                "water": "Bitte Filter oder einen der folgenden Antriebe auswählen"
+            },
+            "replacement-results-single": {
+                "air": "Wir haben folgenden Antrieb gefunden",
+                "water": "Wir haben folgenden Antrieb gefunden"
+            },
+            "no_results": "Keine Suchergebnisse, bitte kontaktieren Sie Ihren lokalen Belimo Ansprechpartner",
+            "settings": {
+                "support_contacts": "Kontakte",
+                "phone": "Telefon",
+                "email": "E-Mail",
+                "address": "Adresse"
+            },
+            "accessory": "Zubehör"
+        },
+        "form": {
+            "project": {
+                "name": "Projektname"
+            },
+            "placeholder": {
+                "search": "Suchbegriff oder Produktnummer eingeben"
+            }
+        },
+        "switch": {
+            "air": "Luft",
+            "water": "Wasser",
+            "or": "oder"
+        },
+        "property": {
+            "manufacturer": "Hersteller",
+            "torque": "Drehmoment",
+            "safety_function": "Sicherheitsfunktion",
+            "running_time": "Laufzeit",
+            "control_type": "Steuerungsart",
+            "valve_type": "Ventil Typ",
+            "series": "Serie",
+            "type": "Typ",
+            "dn": "Nennweite",
+            "nominal_voltage": "Nennspannung",
+            "actuating_force": "Betätigungskraft",
+            "actuating_time": "Stellzeit",
+            "fail_safe_function": "Notstellfunktion",
+            "integrated_switch": "Hilfsschalter",
+            "stroke": "Stellkraft"
+        },
+        "comparison": {
+            "replacement": "Ersatz",
+            "original": "Original",
+            "title": "Vergleich",
+            "and": "und"
+        }
+    },
+    "note": {
+        "@@replacement11": "Dies ist ein 1:1 Ersatz"
+    },
+    "retrofit_parameter": {
+        "no_value": "no value",
+        "@@yes": "ja",
+        "@@no": "nein"
+    }
+}

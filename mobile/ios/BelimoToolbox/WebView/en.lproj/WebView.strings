@@ -1,0 +1,26 @@
+/* 
+  WebView.strings
+  Belimo Toolbox
+
+  Created by Alexander Songolov on 01.09.16.
+  Copyright © 2016 XIAG AG. All rights reserved.
+*/
+
+/* Email account not found: Error alert's title */
+"Cannot use your E-Mail account" = "Cannot use your E-Mail account";
+
+/* Email account not found: Error alert's message */
+"Please configure an E-Mail account at your device" = "Please configure an E-Mail account at your device";
+
+/* No Internet connection: displayed message */
+"Internet connection appears to be offline" = "Internet connection appears to be offline";
+
+/* Unknow error - alert message */
+"Error" = "Error";
+
+/* Alert button - OK */
+"OK" = "OK";
+
+/* Belimo Website URL */
+"http://belimo.eu" = "http://belimo.eu";
+

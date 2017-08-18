@@ -1,0 +1,10 @@
+[color]
+        ui = auto
+[alias]
+        st = status
+        ci = commit
+        br = branch
+        co = checkout
+        df = diff
+        hist = log --pretty=format:'%h | %ad | %s%Cred%d%Creset [%an]' --graph --date=short --date-order --all
+        where = log --decorate -1 --format=oneline --abbrev-commit

@@ -1,0 +1,97 @@
+{
+    "action": {
+        "label": {
+            "search": {
+                "by": {
+                    "keyword": "Cercare",
+                    "parameters": "Cerca da parametri"
+                }
+            },
+            "project": {
+                "create": "Nuovo progetto"
+            }
+        }
+    },
+    "label": {
+        "switcher": {
+            "air": "Aria",
+            "water": "Acqua"
+        },
+        "parameter": {
+            "select": {
+                "hint": "Selezionare %(parameterLabel)s"
+            }
+        },
+        "filter": {
+            "instructions": {
+                "air": "Please select the corresponding parameters",
+                "water": "Please select the corresponding parameters"
+            }
+        },
+        "headline": {
+            "air": "Soluzioni retrofit Aria",
+            "water": "Soluzioni retrofit Acqua",
+            "project": {
+                "create": "Nuovo progetto",
+                "edit": "Edita progetto esistente"
+            },
+            "projects": "Lista dei progetti",
+            "search": "Cerca dispositivi per Aria o per Acqua",
+            "mode_select": "Select device mode",
+            "results": "We have found the following devices",
+            "results-single": "We have found the following device",
+            "replacement-results": {
+                "air": "We have found the following replacements",
+                "water": "Please use filter or select one of the following actuators"
+            },
+            "replacement-results-single": {
+                "air": "We have found the following replacement",
+                "water": "We have found the following actuator"
+            },
+            "no_results": "No results available, please contact your local Belimo distributor",
+            "settings": {
+                "support_contacts": "Support contacts",
+                "phone": "Phone",
+                "email": "E-Mail",
+                "address": "Address"
+            },
+            "accessory": "Accessory"
+        },
+        "form": {
+            "project": {
+                "name": "Nome Progetto"
+            },
+            "placeholder": {
+                "search": "Digita parola chiave o il product No"
+            }
+        },
+        "switch": {
+            "air": "aria",
+            "water": "acqua",
+            "or": "o"
+        },
+        "property": {
+            "manufacturer": "Fabbricante",
+            "nominal_voltage": "Alimentazione",
+            "torque": "Coppia",
+            "safety_function": "Funzione di sicurezza",
+            "running_time": "Tempo di corsa",
+            "control_type": "Tipo di comando",
+            "valve_type": "Tipo valvola",
+            "series": "Serie",
+            "type": "Modello",
+            "dn": "DN",
+            "actuating_force": "Actuating force",
+            "actuating_time": "Actuating time",
+            "fail_safe_function": "Fail-safe function",
+            "integrated_switch": "Integrated Switch",
+            "stroke": "Stroke"
+        },
+        "comparison": {
+            "replacement": "Replacement",
+            "original": "Original",
+            "title": "Comparison",
+            "and": "and"
+        }
+    }
+}

@@ -1,0 +1,14 @@
+source 'https://github.com/CocoaPods/Specs.git'
+use_frameworks!
+
+target 'RetroFIT' do
+    pod 'Fabric'
+    pod 'Crashlytics'
+    pod 'Font-Awesome-Swift', '~> 1.5.3'
+end
+
+target 'ValveSizer' do
+    pod 'Fabric'
+    pod 'Crashlytics'
+    pod 'Font-Awesome-Swift', '~> 1.5.3'
+end

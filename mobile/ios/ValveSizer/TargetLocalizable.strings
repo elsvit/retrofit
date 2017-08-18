@@ -1,0 +1,10 @@
+/* 
+  Localizable.strings
+  Belimo Toolbox
+
+  Created by Alexander Songolov on 15.06.16.
+  Copyright © 2016 XIAG AG. All rights reserved.
+*/
+
+/* Slogan text for current app */
+"SplashScreen.slogan_text" = "";

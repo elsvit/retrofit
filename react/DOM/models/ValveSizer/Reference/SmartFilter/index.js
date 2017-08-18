@@ -1,0 +1,1 @@
+export SmartPropertiesManager from './SmartPropertiesManager';

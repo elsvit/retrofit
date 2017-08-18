@@ -1,0 +1,6 @@
+framework module Pods_RetroFIT {
+  umbrella header "Pods-RetroFIT-umbrella.h"
+
+  export *
+  module * { export * }
+}

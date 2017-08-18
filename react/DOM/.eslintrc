@@ -1,0 +1,55 @@
+{
+  "extends": ["eslint:recommended", "plugin:react/recommended", "eslint-config-airbnb"],
+  "env": {
+    "browser": true,
+    "node": true,
+    "mocha": true
+  },
+  "parser": "babel-eslint",
+  "parserOptions": {
+    "ecmaFeatures": {
+      "jsx": true,
+      "arrowFunctions": true
+    }
+  },
+  "rules": {
+    "react/no-multi-comp": 0,
+    "react/jsx-key": 1,
+    "import/default": 0,
+    "import/no-duplicates": 0,
+    "import/named": 0,
+    "import/namespace": 0,
+    "import/no-unresolved": 0,
+    "import/no-named-as-default": 2,
+    "comma-dangle": 0,
+    "indent": [2, 4, {"SwitchCase": 1}],
+    "react/jsx-indent": [2, 4],
+    "react/jsx-indent-props": [2, 4],
+    "max-len": [2, 120, 4],
+    "no-console": 0,
+    "no-alert": 0,
+    "no-unused-vars": [2, { "args": "none" }],
+    "guard-for-in": 0,
+    "prefer-const": 0,
+    "no-loop-func": 0,
+    "no-script-url": 0,
+    "new-cap": 0,
+    "no-param-reassign": 0, // beacuse phpStorm can not into [2, {"props": true}]
+    "react/jsx-no-bind": [2, {"allowArrowFunctions":true}],
+    "prefer-template": 0,
+    "arrow-body-style": [2, "as-needed"],
+    "no-underscore-dangle": ["error", { "allowAfterThis": true }]
+  },
+  "plugins": [
+    "react", "import"
+  ],
+  "settings": {
+    "import/parser": "babel-eslint",
+    "import/resolve": {
+      moduleDirectory: ["node_modules"]
+    }
+  },
+  "globals": {
+    "$": true
+  }
+}

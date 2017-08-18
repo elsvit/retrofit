@@ -1,0 +1,6 @@
+.DS_Store
+*.gradle
+*.iml
+dex-cache
+build
+local.properties

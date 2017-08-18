@@ -1,0 +1,3 @@
+export const
+    RECOMMENDATION_STATUS_ABSOLUTELY = "absolutely",
+    RECOMMENDATION_STATUS_CONDITIONALLY = "conditionally";

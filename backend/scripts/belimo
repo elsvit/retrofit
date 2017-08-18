@@ -1,0 +1,113 @@
+#!/usr/bin/php
+<?php
+use Xiag\Belimo\Import\ImportConfig;
+use Xiag\Belimo\Import\Importer;
+use Xiag\Belimo\Import\ImportException;
+use Xiag\Belimo\Import\InvalidParameterException;
+use Xiag\Belimo\Import\Logger;
+use Xiag\Belimo\Import\OutputStreamLogger;
+use Xiag\Belimo\Import\Validator;
+use Xiag\Belimo\StorageFactory;
+
+require_once __DIR__ . '/../../vendor/autoload.php';
+$config = require_once __DIR__ . '/../configuration/application.php';
+
+$runScript = "php {$argv[0]}";
+
+$HELP = [
+    '--default--' => <<<EOT
+Usage: $runScript <command> [options] [args]
+    Available commands:
+    help <command>  : Show help for a command
+    check-installed : Test if installation is needed
+    install         : Import data from customer files to DB
+    purge           : Purge the DB
+EOT
+    ,
+    'check-installed' => <<<EOT
+Test if installation is needed (exit 1) or not (exit 0). Do not change anything. Syntax:
+    $runScript test [-q]
+    -q      No output to console
+EOT
+    ,
+    'install' => <<<EOT
+Import data from customer files to DB if the DB is empty. Syntax:
+    $runScript install [-qd] <target>|all [group1 group2 ...]
+    -q      No output to console
+    -d      Process inputs but do not make any changes to DB
+    target  Target region or 'all' for all configured regions
+    groupN  Group name (ex: valvesizer/water). If no names are given, all groups from config are imported
+EOT
+    ,
+    'purge' => <<<EOT
+Purge the database. Syntax:
+    $runScript purge <target>|all
+    target  Target region or 'all' for all configured regions
+EOT
+];
+
+
+$logger = new OutputStreamLogger(posix_isatty(STDOUT), Logger::TRACE, STDOUT);
+$importer = new Importer(
+    new ImportConfig($config['import']),
+    StorageFactory::getStorage($config['storage']),
+    $logger
+);
+
+function createRunner($callable)
+{
+    return function ($args, $opts, $cons) use ($callable) {
+        global $logger;
+        try {
+            $callable($args, $opts, $cons);
+        } catch (InvalidParameterException $e) {
+            $logger->error($e->getMessage());
+            exit(2);
+        } catch (Exception $e) {
+            $logger->error($e);
+            exit(3);
+        }
+    };
+}
+
+$console = new ConsoleKit\Console();
+$console->addCommand(function ($args, $opts, $cons) use ($HELP) {
+    $key = count($args) ? $args[0] : '--default--';
+    $key = empty($HELP[$key]) ? '--default--' : $key;
+    $cons->writeln($HELP[$key] . "\n");
+    exit(1);
+}, 'help', true);
+
+
+$console->addCommand(createRunner(function ($args, $opts, $cons) use ($importer, $logger) {
+    if (isset($opts['q'])) {
+        $logger->setLevel(Logger::NONE);
+    }
+    $needSetup = $importer->isSetupNeeded();
+    $logger->info($needSetup ? 'Installation is needed' : 'Installation is not needed');
+    exit($needSetup ? 1 : 0);
+}), 'check-installed');
+
+$console->addCommand(createRunner(function ($args) use ($importer, $logger) {
+    if (count($args) < 1) {
+        throw new InvalidParameterException('Invalid target specification');
+    }
+    $logger->setLevel(Logger::ERROR);
+    $importer->purgeStorage(count($args) === 1 && $args[0] === 'all' ? null : $args[0]);
+}), 'purge');
+
+$console->addCommand(createRunner(function ($args, $opts) use ($config, $importer, $logger) {
+    if (count($args) < 1) {
+        throw new InvalidParameterException('Invalid target specification');
+    }
+    $target = array_shift($args);
+    if (isset($opts['q'])) {
+        $logger->setLevel(Logger::NONE);
+    }
+    $options = [
+        'dryRun' => isset($opts['d']),
+    ];
+    $importer->import($target === 'all' ? null : $target, $args, new Validator($config['import']), $options);
+}), 'install');
+
+$console->run();

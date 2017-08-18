@@ -1,0 +1,436 @@
+{
+  "alb": {
+    "code": "ALB",
+    "country": "Albania",
+    "phone": "+355 42 68591",
+    "fax": "+355 42 68591",
+    "email": "info@belimo.gr",
+    "address": "BELIMO Air Controls<br />Albanian branch<br />Kavajas street<br />Former Bus Station<br />2nd floor<br />Tirana, Albania<br /><br />Official partner of Belimo Greece"
+  },
+  "dza": {
+    "code": "DZA",
+    "country": "Algeria",
+    "phone": "+9714 80 50",
+    "fax": "+9714 80 51",
+    "email": "newmarkets@belimo.ch",
+    "web": "www.belimo.ch",
+    "address": "BELIMO Automation AG<br />Division New Markets<br />Brunnenbachstrasse 1<br />8340 Hinwil, Switzerland"
+  },
+  "aut": {
+    "code": "AUT",
+    "country": "Austria",
+    "phone": "+43 (0)1 749 03 61-0",
+    "fax": "+43 (0)1 749 03 61-99",
+    "email": "info@belimo.at",
+    "web": "www.belimo.at",
+    "address": "BELIMO Automation<br />Handelsgesellschaft m.b.H.<br />Ghegastraße 3<br />1030 Wien, Austria"
+  },
+  "aze": {
+    "code": "AZE",
+    "country": "Azerbaijan",
+    "phone": "+994 12 409 51 01",
+    "fax": "+994 50 225 51 01",
+    "email": "info@belimo.az",
+    "web": "www.belimo.az",
+    "address": "Belimo Azerbaijan LLC<br />1/4 Ahmad Rajabli str Adore Plaza <br />AZ1075 Baku<br />Azerbaijan"
+  },
+  "bhr": {
+    "code": "BHR",
+    "country": "Bahrain",
+    "phone": "+966 11 277 6333",
+    "email": "info@belimo.sa",
+    "web": "www.belimo.sa",
+    "address": "Belimo Saudi Arabia<br />3250 Al Imam Abdullah Ibn Saud Rd (Exit 9) <br />Ghirnatah District Riyadh 13242 <br />Saudi Arabia"
+  },
+  "blr": {
+    "code": "BLR",
+    "country": "Belarus",
+    "phone": "+375 17 360 05 13",
+    "email": "info@belimo.by",
+    "web": "www.belimo.by",
+    "address": "OOO BELIMO<br />Timiryazeva 67-403<br />220035 Minsk<br />Belarus"
+  },
+  "bel": {
+    "code": "BEL",
+    "country": "Belgium",
+    "phone": "+31 (0) 578 576836",
+    "fax": "+31 (0) 578 576915",
+    "email": "info@belimo.nl",
+    "web": "www.belimo.nl",
+    "address": "BELIMO Servomotoren B.V.<br />Postbus 300, NL-8160 AH Epe<br />Radeweg 25, NL-8171 MD Vaassen<br />Netherlands"
+  },
+  "bih": {
+    "code": "BIH",
+    "country": "Bosnia",
+    "phone": "+381-(0)11 313-02-56",
+    "email": "info@belimo.at",
+    "web": "www.belimo.at",
+    "address": "BELIMO Automation<br />Handelsgesellschaft m.b.H.<br />Ghegastraße 3<br />1030 Wien, Austria"
+  },
+  "bgr": {
+    "code": "BGR",
+    "country": "Bulgaria",
+    "phone": "+359 2 9523470",
+    "fax": "+359 2 9515240",
+    "email": "belimo@mbox.contact.bg",
+    "web": "www.belimo-bg.com",
+    "address": "BELIMO Bulgaria Ltd.<br />j.k. Lagera, 6 Balchik Str.<br />1612 Sofia<br />Bulgaria"
+  },
+  "hrv": {
+    "code": "HRV",
+    "country": "Croatia",
+    "phone": "+386-(0)41-75 89 63",
+    "fax": "+386-(0)4-2342-761",
+    "email": "info@belimo.at",
+    "web": "www.belimo.ch",
+    "address": "BELIMO Automation<br />Handelsgesellschaft m.b.H.<br />Ghegastraße 3<br />1030 Wien, Austria"
+  },
+  "cyp": {
+    "code": "CYP",
+    "country": "Cyprus",
+    "phone": "+357 99317241",
+    "fax": "+357 22329660",
+    "email": "info@belimo.gr",
+    "web": "www.belimo.gt",
+    "address": "BELIMO Air Controls<br />Cyprus Branch<br />Georgiou Charalambous 5<br />2232 Latsia - Nicosia<br />Cyprus"
+  },
+  "cze": {
+    "code": "CZE",
+    "country": "Czech Republic",
+    "phone": "+420 (0)2 717 40 311",
+    "fax": "+420 (0)2 717 43 057",
+    "email": "info@belimo.cz",
+    "web": "www.belimo.cz",
+    "address": "BELIMO CZ<br />(Ing. Ivar Mentzl)<br />Severní 277<br />252 25 Jinocany, Praha-západ<br />Czech Republic"
+  },
+  "dnk": {
+    "code": "DNK",
+    "country": "Denmark",
+    "phone": "+45 86 52 44 00",
+    "fax": "+45 86 52 44 88",
+    "email": "info@belimo.dk",
+    "web": "www.belimo.dk",
+    "address": "BELIMO A/S<br />Thomas Helstedsvej 7A<br />8660 Skanderborg, Denmark"
+  },
+  "egy": {
+    "code": "EGY",
+    "country": "Egypt",
+    "phone": "+9714 299 80 50",
+    "fax": "+9714 299 80 51",
+    "email": "info@belimo.ae",
+    "web": "www.belimo.ae",
+    "address": "Belimo Automation FZE<br />P.O Box 293644<br />Dubai<br />United Arab Emirates"
+  },
+  "est": {
+    "code": "EST",
+    "country": "Estonia",
+    "phone": "+372 6140 811",
+    "fax": "+372 6140 812",
+    "email": "info@belimo.ee",
+    "web": "www.belimo.ee",
+    "address": "BELIMO Balticum AS<br />Türi 10 D<br />11313 Tallinn, Estonia"
+  },
+  "fin": {
+    "code": "FIN",
+    "country": "Finland",
+    "phone": "+358 (0) 207 639 500",
+    "fax": "+358 (0) 207 639 501",
+    "email": "info@belimo.fi",
+    "web": "www.belimo.fi",
+    "address": "BELIMO Finland Oy<br />Insinöörinkatu 7<br />00880 Helsinki<br />Finland"
+  },
+  "fra": {
+    "code": "FRA",
+    "country": "France",
+    "phone": "+33 (0)1 64 72 83 70",
+    "fax": "+33 (0)1 64 72 94 09",
+    "email": "info@belimo.fr",
+    "web": "www.belimo.fr",
+    "address": "BELIMO<br />33 Rue de la Régale<br />77181 Courtry<br />France"
+  },
+  "geo": {
+    "code": "GEO",
+    "country": "Georgia",
+    "phone": "+995 32 237 18 43",
+    "fax": "+995 32 237 18 43",
+    "email": "master@belimo.kiev.ua",
+    "web": "www.belimo.ge",
+    "address": "CHKVIANI SAXLI (SMART HOUSE)<br />12 Gabriel Isakadze Str., <br />0160 Tbilisi, Georgia"
+  },
+  "ger": {
+    "code": "GER",
+    "country": "Germany",
+    "phone": "+49 711 1 67 83 0",
+    "fax": "+49 711 1 67 83 73",
+    "email": "info@belimo.de",
+    "web": "www.belimo.de",
+    "address": "BELIMO Stellantriebe<br />Vertriebs GmbH<br />Welfenstrasse 27 / Postfach 72 02 30<br />70599 Stuttgart, Germany"
+  },
+  "gbr": {
+    "code": "GBR",
+    "country": "Great Britain",
+    "phone": "+44 (0)1932 260460",
+    "fax": "+44 (0)1932 269222",
+    "email": "sales@belimo.co.uk",
+    "web": "www.belimo.co.uk",
+    "address": "BELIMO Automation UK Limited<br />Shepperton Business Park<br />Govett Avenue, Shepperton<br />Middlesex, TW17 8BA<br />Great Britain"
+  },
+  "grc": {
+    "code": "GRC",
+    "country": "Greece",
+    "phone": "+30-2-10 94 00 766",
+    "fax": "+30-2-10 94 00 767",
+    "email": "info@belimo.gr",
+    "web": "www.belimo.gr",
+    "address": "BELIMO Air Controls<br />Lysiou 11<br />16346 Ilioupoli<br />Athens, Greece"
+  },
+  "hun": {
+    "code": "HUN",
+    "country": "Hungary",
+    "phone": "+36 703870520",
+    "fax": "+30-2-10 94 00 767",
+    "email": "info@belimo.at",
+    "web": "www.belimo.at",
+    "address": "BELIMO Automation<br />Handelsgesellschaft m.b.H.<br />Ghegastraße 3<br />1030 Wien, Austria"
+  },
+  "isl": {
+    "code": "ISL",
+    "country": "Iceland",
+    "phone": "+354 588 6070",
+    "fax": "+354 588 6071",
+    "email": "hitataekni@hitataekni.is",
+    "address": "Hitataekni ehf.<br />Smidjuvegur 10<br />200 Kópavogur<br />Iceland"
+  },
+  "ire": {
+    "code": "IRE",
+    "country": "Ireland",
+    "phone": "+44 (0) 1932 260460",
+    "fax": "+44 (0) 1932 269222",
+    "email": "paul.oneill@belimo.co.uk",
+    "web": "www.belimo.co.uk",
+    "address": "Paul O’ Neill - Sales Manager Ireland<br />Ireland Sales Office<br />Suite 001a<br />The Airport Hub,<br />1 Fury Park Industrial Estate,<br />Swords Road,<br />Santry,<br />Dublin 9<br />Ireland"
+  },
+  "isr": {
+    "code": "ISR",
+    "country": "Israel",
+    "phone": "+972 3 536 5167",
+    "fax": "+972 3 536 0581",
+    "email": "belimo@belimo.co.il",
+    "web": "www.belimo.co.il",
+    "address": "Shemer Representations Ltd.<br />14 Odem St., Petach-Tikva<br />P.O.B. 296<br />56101 Yehud, Israel"
+  },
+  "ita": {
+    "code": "ITA",
+    "country": "Italy",
+    "phone": "+39 035 5788700",
+    "fax": "+39 035 67 02 00",
+    "email": "info@belimo.it",
+    "web": "www.belimo.it",
+    "address": "BELIMO Italia S.r.l.<br />Sede legale<br />Via Zanica 19H<br />24050 Grassobbio (BG)"
+  },
+  "jor": {
+    "code": "JOR",
+    "country": "Jordan",
+    "phone": "+9714 299 80 50",
+    "fax": "+9714 299 80 51",
+    "email": "info@belimo.ae",
+    "web": "www.belimo.ae",
+    "address": "Belimo Automation FZE<br />P.O Box 293644<br />Dubai<br />United Arab Emirates"
+  },
+  "kaz": {
+    "code": "KAZ",
+    "country": "Kazakhstan",
+    "phone": "+7.727. 2 718 500 / 2 718 400",
+    "fax": "+7.727. 2 718 333",
+    "email": "info@belimo.kz",
+    "web": "www.belimo.kz",
+    "address": "BELIMO Kazakhstan<br />24 office, 16 Satpaev str.<br />050013, Almaty <br />Kazakhstan"
+  },
+  "kwt": {
+    "code": "KWT",
+    "country": "Kuwait",
+    "phone": "+9714 299 80 50",
+    "fax": "+9714 299 80 51",
+    "email": "info@belimo.ae",
+    "web": "www.belimo.ae",
+    "address": "Belimo Automation FZE<br />P.O Box 293644<br />Dubai<br />United Arab Emirates"
+  },
+  "lva": {
+    "code": "LVA",
+    "country": "Latvia",
+    "phone": "+371 762 3105",
+    "fax": "+ 371 762 3180",
+    "email": "info@belimo.lv",
+    "web": "www.belimo.lv",
+    "address": "BELIMO Balticum SIA<br />Mukusalas iela 72 B<br />Riga LV-1004, Latvia"
+  },
+  "ltu": {
+    "code": "LTU",
+    "country": "Lithuania",
+    "phone": "+37052127013",
+    "fax": "+37052126798",
+    "email": "info@belimo.lt",
+    "web": "www.belimo.lt",
+    "address": "UAB Belimo Baltikum<br />Kaukysos street 18<br />11342 Vilnius, Lithuania"
+  },
+  "lux": {
+    "code": "LUX",
+    "country": "Luxemburg",
+    "phone": "+33 (0)1 64 72 83 70",
+    "fax": "+33 (0)1 64 72 94 09",
+    "email": "info@belimo.fr",
+    "web": "www.belimo.fr",
+    "address": "BELIMO<br />ZA de la Régale<br />33, Rue de la Régale<br />77181 Courtry<br />France"
+  },
+  "mkd": {
+    "code": "MKD",
+    "country": "Macedonia",
+    "phone": "+389 75279389",
+    "fax": "+389 22 700939",
+    "email": "goran.andreev@belimo.at",
+    "web": "www.belimo.at",
+    "address": "BELIMO Automation<br />Handelsgesellschaft m.b.H.<br />Ghegastraße 3<br />1030 Wien, Austria"
+  },
+  "mkd": {
+    "code": "MKD",
+    "country": "Moldova",
+    "phone": "(37379) 56-01-00",
+    "fax": "(37379) 56-01-00",
+    "email": "valera.ceban@gmail.com",
+    "address": "LasLux srl<br />Dechebal str, 23/2, office 26<br />Chisinau, Moldova"
+  },
+  "mne": {
+    "code": "MNE",
+    "country": "Montenegro",
+    "phone": "+381-(0)11 313-02-56",
+    "fax": "+381-(0)63 254-789",
+    "email": "info@belimo.at",
+    "web": "www.belimo.at",
+    "address": "BELIMO Automation<br />Handelsgesellschaft m.b.H.<br />Ghegastraße 3<br />1030 Wien, Austria"
+  },
+  "mar": {
+    "code": "MAR",
+    "country": "Marocco",
+    "phone": "+41 43 843 61 11",
+    "fax": "+41 43 843 62 99",
+    "email": "newmarkets@belimo.ch",
+    "web": "www.belimo.ch",
+    "address": "BELIMO Automation AG<br />Division New Markets<br />Brunnenbachstrasse 1<br />8340 Hinwil, Switzerland"
+  },
+  "nld": {
+    "code": "NLD",
+    "country": "Netherlands",
+    "phone": "+31 (0) 578 576 836",
+    "fax": "+31 (0) 578 576 915",
+    "email": "info@belimo.nl",
+    "web": "www.belimo.nl",
+    "address": "BELIMO Servomotoren B.V.<br />Postbus 300, NL-8160 AH Epe<br />Riezebosweg 5, NL-8171 MG Vaassen<br />Netherlands"
+  },
+  "nor": {
+    "code": "NOR",
+    "country": "Norway",
+    "phone": "+47 22 70 71 71",
+    "fax": "+47 22 70 71 70",
+    "email": "info@belimo.no",
+    "web": "www.belimo.no",
+    "address": "BELIMO Automation Norge AS<br />Brynsveien 18<br />0667 Oslo, Norway"
+  },
+  "pol": {
+    "code": "POL",
+    "country": "Poland",
+    "phone": "+48 22 886-53-05",
+    "fax": "+48 22 886-53-08",
+    "email": "info@belimo.pl",
+    "web": "www.belimo.pl",
+    "address": "BELIMO Siłowniki S.A.<br />ul. Jutrzenki 98<br />02-230 Warszawa, Poland"
+  },
+  "prt": {
+    "code": "PRT",
+    "country": "Portugal",
+    "phone": "+34 91 304 11 11",
+    "fax": "+34 91 327 25 39",
+    "email": "info@belimo.es",
+    "web": "www.belimo.es",
+    "address": "BELIMO Ibérica<br />de Servomotores, S.A.<br />C/San Romualdo, 12-14<br />28037 Madrid, Spain"
+  },
+  "rou": {
+    "code": "ROU",
+    "country": "Romania",
+    "phone": "+0040 21 3171613",
+    "fax": "+0040 21 3171615",
+    "email": "info@belimo.ro",
+    "web": "www.belimo.ro",
+    "address": "BELIMO Automatizări SRL<br />Str. Drumul Fermei 88, 077160 Popesti-Leordeni, Ilfov<br />RO-Bucureşti<br />Romania"
+  },
+  "rus": {
+    "code": "RUS",
+    "country": "Russia",
+    "phone": "+7 495 662 13 88",
+    "fax": "+7 495 662 13 89",
+    "email": "info@belimo.ru",
+    "web": "www.belimo.ru",
+    "address": "BELIMO Servomotors Russia Ltd.<br />Srednyaya Pervomaiskaya, 3<br />105077 Moscow, Russia"
+  },
+  "sau": {
+    "code": "SAU",
+    "country": "Saudi Arabia",
+    "phone": "+966 11 277 6333",
+    "email": "info@belimo.sa",
+    "web": "www.belimo.sa",
+    "address": "Belimo Saudi Arabia<br />3250 Al Imam Abdullah Ibn Saud Rd (Exit 9) <br />Ghirnatah District Riyadh 13242 <br />Saudi Arabia "
+  },
+  "zaf": {
+    "code": "ZAF",
+    "country": "South Africa",
+    "phone": "+27 860 235 466",
+    "fax": "",
+    "email": "johan@belimo.co.za",
+    "web": "www.belimo.co.za",
+    "address": "Belimo Southern Africa (PTY) Ltd<br />11 Third Street Southdale<br />2091 Johannesburg, GT<br /> South Africa"
+  },
+  "esp": {
+    "code": "ESP",
+    "country": "Spain",
+    "phone": "+34 91 304 11 11",
+    "fax": "+34 91 327 25 39",
+    "email": "info@belimo.es",
+    "web": "www.belimo.es",
+    "address": "BELIMO Ibérica<br />de Servomotores, S.A.<br />C/San Romualdo, 12-14<br />28037 Madrid, Spain"
+  },
+  "swe": {
+    "code": "SWE",
+    "country": "Sweden",
+    "phone": "+34 91 304 11 11",
+    "fax": "+34 91 327 25 39",
+    "email": "info@belimo.se",
+    "web": "www.belimo.se",
+    "address": "BELIMO AB<br />Stubbsundsvägen 15<br />S-13141 Nacka, Sweden"
+  },
+  "sui": {
+    "code": "SUI",
+    "country": "Switzerland",
+    "phone": "+41 43 843 62 12",
+    "fax": "+41 43 843 62 68",
+    "email": "verkauf@belimo.ch",
+    "web": "www.belimo.ch",
+    "address": "BELIMO Automation AG<br />Brunnenbachstrasse 1<br />CH-8340 Hinwil, Switzerland"
+  },
+  "tur": {
+    "code": "TUR",
+    "country": "Turkey",
+    "phone": "+90 216 266 3200",
+    "fax": "+90 216 266 3209",
+    "email": "info@belimo.com.tr",
+    "web": "www.belimo.com.tr",
+    "address": "Belimo Turkey Otomasyon A.Ş.<br />Şerifali Mah. Beyit Sk. No:52/1<br />34775 Ümraniye / İstanbul<br />Turkey"
+  },
+  "ukr": {
+    "code": "UKR",
+    "country": "Ukraine",
+    "phone": "+380 44 531 37 01",
+    "fax": "+380 44 463 75 86",
+    "email": "master@belimo.kiev.ua",
+    "web": "www.belimo.com.ua",
+    "address": "BELIMO Ukraine S.A.R.<br />VUL. Yurkovskaya 36/10<br />Office 9<br />UA-254080 Kiev<br />Ukraine"
+  }
+}
